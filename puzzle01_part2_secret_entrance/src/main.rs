@@ -1,7 +1,7 @@
 use std::fs::File;
 use std::io::{self, BufRead};
 use std::path::Path;
-use num::traits::Euclid;
+use num_traits::Euclid;
 
 fn main() {
     let mut dial_location: i32 = 50;
